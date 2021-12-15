@@ -1,6 +1,10 @@
+#!/usr/bin/env python
+
 import os
 from RPi import GPIO
  
+print ("Started")
+
 os.system('clear') #clear screen, this is just for the OCD purposes
  
 step = 5 #linear steps for increasing/decreasing volume
